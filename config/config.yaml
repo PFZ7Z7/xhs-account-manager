@@ -1,0 +1,22 @@
+# API 配置
+api:
+  base_url: "https://edith.xiaohongshu.com"
+  timeout: 30
+  max_retries: 3
+  retry_delay: 1.0
+
+# 账号配置
+account:
+  cookie_expire_hours: 24
+  auto_refresh: false
+  max_accounts: 10
+
+# 请求配置
+request:
+  rate_limit: 1.0
+  random_delay: true
+  min_delay: 0.5
+  max_delay: 2.0
+
+# 调试模式
+debug: false
