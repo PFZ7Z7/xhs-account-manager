@@ -3,7 +3,7 @@
 """
 import time
 import random
-from typing import Optional, Dict, Any, List, Generator
+from typing import Optional, Dict, Any, Generator
 from datetime import datetime
 
 import requests
